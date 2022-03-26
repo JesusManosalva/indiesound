@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* helpers */ 
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+body{
+    background-color: black
+}
+header .logo {
+    justify-content: left;
+    flex-basis: 30%;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+header .menu > li{
+    font-size: 20px;
+    color: lightskyblue;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-basis: 40%;
+    text-align: left;
+    margin-left: 50px;
+}
+.gallery{
+    padding: 10vh;
+}
+@media screen and (max-width:425px) {
+    .gallery__container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:768px) {
+    .gallery__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.picture1{
+    flex-basis: 100%;
+    min-width: 300px;
+}
+.picture2{
+    flex-basis: 100%;
+    min-width: 300px;
+}
+.picture3{
+    flex-basis: 100%;
+    min-width: 300px;
+}
+.picture4{
+    flex-basis: 100%;
+    min-width: 300px;
+}
+.img1 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.img2 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.img3 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.img4 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+/* Albums */ 
+.albums{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.born{
+    background-color: blue;
+}
+.paradise{
+    background-color: yellowgreen;
+}
+.ultraviolence{
+    background-color: gainsboro;
+}
+.honeymoon{
+    background-color: burlywood;
+}
+.lust{
+    background-color: lightblue;
+}
+.norman{
+    background-color: greenyellow;
+}
+.chemtrails{
+    background-color: grey;
+}
+.bannisters{
+    background-color: brown;
+}
+@media screen and (max-width:425px) {
+    .albums {
+        display: flex;
+        flex-direction: column;
+    }
+}
+    footer{
+    margin-left: 10vh;
+    padding: 5vh;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightskyblue
+}
