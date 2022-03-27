@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style: none;
 }
-/* helpers */ 
+
 .flex-row {
     display: flex;
 }
@@ -16,27 +16,18 @@
 }
 
 .container{
-    max-width: 1080px;
+    max-width: 720px;
     margin: 0 auto;
 }
-body{
-    background-color: black
+.Body{
+    background-color: black;
 }
 header .logo {
     justify-content: left;
     flex-basis: 30%;
     height: 80px;
-    margin-left: 20px;
-    margin-top: 40px;
-}
-header .menu > li{
-    font-size: 20px;
-    color: lightskyblue;
-    text-transform: capitalize;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    flex-basis: 40%;
-    text-align: left;
-    margin-left: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .gallery{
     padding: 10vh;
@@ -57,7 +48,6 @@ header .menu > li{
         flex-direction: column;
     }
 }
-
 .picture1{
     flex-basis: 100%;
     min-width: 300px;
