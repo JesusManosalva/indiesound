@@ -22,11 +22,14 @@
     background-color: black;
 }
 header .logo {
-    justify-content: left;
-    flex-basis: 30%;
-    height: 80px;
+    height: 60px;
     margin-left: 10px;
-    margin-top: 10px;   
+    margin-right: 20px;
+    margin-top: 10px;  
+    margin-bottom: 10px; 
+}
+.navbar{
+    background-color: black;
 }
 .gallery{
     padding: 10vh;
@@ -111,10 +114,17 @@ header .logo {
     flex-basis: 100%;
     min-width: 300px;
 }
+.title{
+    padding: 10vh;
+    color: gray;
+}
+.form{
+    margin-left: 5vh;
+}
 footer{
-    margin-left: 15vh;
+    margin-left: 5vh;
     padding: 5vh;
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blue
+    color: gray
 }
