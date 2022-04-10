@@ -8,7 +8,6 @@
 .flex-row {
     display: flex;
 }
-
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -127,4 +126,39 @@ footer{
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: gray
+}
+/* media queries */
+@media screen and (max-width: 1024px){
+    .img1{
+        width: 70%;
+    }
+    .img2{
+        width: 70%;
+    }
+    .img3{
+        width: 70%;
+    }
+    .img4{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 767px){
+    .img1{
+        width: 50%;
+    }
+    .img2{
+        width: 50%;
+    }
+    .img3{
+        width: 50%;
+    }
+    .img4{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 425px){
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
